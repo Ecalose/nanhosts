@@ -22,16 +22,16 @@
 ### 2.1 复制下面的内容
 ```bash
 # GitHub520 Host Start
-40.75.116.196                 imoutolove.me
+40.122.134.113                imoutolove.me
 104.24.122.139                white-plus.net
 104.24.110.175                south-plus.net
 104.31.94.178                 summer-plus.net
-# Star me GitHub url: https://github.com/521xueweihan/GitHub520
-# GitHub520 Host End
+# Star me GitHub url:https://github.com/Ecalose/nanhosts
+# 南+ Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2020-11-27T14:23:48+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2020-11-27T14:25:55+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
