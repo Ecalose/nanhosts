@@ -17,10 +17,10 @@ from retry import retry
 import requests
 
 RAW_URL = [
-    "imoutolove.me",
-    "white-plus.net",
+    "bbs.imoutolove.me",
+    "bbs.white-plus.net",
     "south-plus.net",
-    "summer-plus.net"]
+    "www.summer-plus.net"]
 
 IPADDRESS_PREFIX = ".ipaddress.com"
 
