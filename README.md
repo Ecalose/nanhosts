@@ -7,7 +7,7 @@
 ### 2.1 复制下面的内容
 ```bash
 # GitHub520 Host Start
-20.190.43.4                   imoutolove.me
+104.43.200.19                 imoutolove.me
 104.24.122.139                white-plus.net
 104.24.110.175                south-plus.net
 104.31.94.178                 summer-plus.net
@@ -16,7 +16,7 @@
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2020-11-27T14:34:41+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2020-11-27T14:40:28+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
@@ -52,10 +52,10 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 - Title: 随意
 
-- Type: `Remot
-- URL: `https://cdn.jsdelivr.net/gh/
+- Type: `Remote`
+- URL: `https://cdn.jsdelivr.net/gh/Ecalose/nanhosts/hosts`
 
-- Auto Refresh: 最好选 
+- Auto Refresh: 最好选`1hour`
 
 如图：
 
@@ -69,7 +69,7 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 - 名称: 随意
 
-- URL: `https://gitee.com/xueweihan/codes/6g793pm2k1hacwfbyesl464/raw?blob_name=GitHub520.yml`（和上面 SwitchHosts 使用的一样）
+- URL: `https://cdn.jsdelivr.net/gh/Ecalose/nanhosts/hosts`（和上面 SwitchHosts 使用的一样）
 
 如图：
 
@@ -81,20 +81,6 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 **Tip**：不要添加在 **DNS 允许清单** 内，只能添加在 **DNS 封锁清单** 才管用。另外，AdGuard for Mac、AdGuard for Windows、AdGuard for Android、AdGuard for IOS 等等 **AdGuard 家族软件** 添加方法均类似。
 
-## 三、效果对比
-之前的样子：
-
-![](./img/old.png)
-
-修改完 hosts 的样子：
-
-![](./img/new.png)
-
-
-## TODO
-- [x] 定时自动更新 hosts 内容
-- [x] hosts 内容无变动不会更新
-- [ ] 寻到最优 IP 解析结果
 
 
 ## 声明
