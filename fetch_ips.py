@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 #   
-#   Author  :   XueWeiHan
-#   E-mail  :   595666367@qq.com
+#   Author  :  Ecalose
 #   Date    :   2020-05-19 15:27
-#   Desc    :   获取最新的 GitHub 相关域名对应 IP
+#   Desc    :   获取最新的南+相关域名对应 IP
 import os
 import re
 import json
@@ -18,29 +17,10 @@ from retry import retry
 import requests
 
 RAW_URL = [
-    "github.githubassets.com",
-    "camo.githubusercontent.com",
-    "github.map.fastly.net",
-    "github.global.ssl.fastly.net",
-    "gist.github.com",
-    "github.io",
-    "github.com",
-    "api.github.com",
-    "raw.githubusercontent.com",
-    "user-images.githubusercontent.com",
-    "favicons.githubusercontent.com",
-    "avatars5.githubusercontent.com",
-    "avatars4.githubusercontent.com",
-    "avatars3.githubusercontent.com",
-    "avatars2.githubusercontent.com",
-    "avatars1.githubusercontent.com",
-    "avatars0.githubusercontent.com",
-    "codeload.github.com",
-    "github-cloud.s3.amazonaws.com",
-    "github-com.s3.amazonaws.com",
-    "github-production-release-asset-2e65be.s3.amazonaws.com",
-    "github-production-user-asset-6210df.s3.amazonaws.com",
-    "github-production-repository-file-5c1aeb.s3.amazonaws.com"]
+    "imoutolove.me",
+    "white-plus.net",
+    "south-plus.net",
+    "summer-plus.net"]
 
 IPADDRESS_PREFIX = ".ipaddress.com"
 
@@ -110,33 +90,6 @@ def get_ip(session: requests.session, raw_url: str):
         print("get: {}, error: {}".format(url, ex))
         raise Exception
 
-
-@retry(tries=3)
-def update_gitee_gist(session: requests.session, host_content):
-    gitee_token = os.getenv("gitee_token")
-    gitee_gist_id = os.getenv("gitee_gist_id")
-    gist_file_name = os.getenv("gitee_gist_file_name")
-    url = "https://gitee.com/api/v5/gists/{}".format(gitee_gist_id)
-    headers = {
-        "Content-Type": "application/json"}
-    data = {
-        "access_token": gitee_token,
-        "files": {gist_file_name: {"content": host_content}},
-        "public": "true"}
-    json_data = json.dumps(data)
-    try:
-        response = session.patch(url, data=json_data, headers=headers,
-                                 timeout=20)
-        if response.status_code == 200:
-            print("update gitee gist success")
-        else:
-            print("update gitee gist fail: {} {}".format(response.status_code,
-                                                         response.content))
-    except Exception as e:
-        traceback.print_exc(e)
-        raise Exception(e)
-
-
 def main():
     session = requests.session()
     content = ""
@@ -152,11 +105,6 @@ def main():
 
     hosts_content = HOSTS_TEMPLATE.format(content=content)
     has_change = write_file(hosts_content)
-    if has_change:
-        try:
-            update_gitee_gist(session, hosts_content)
-        except Exception as e:
-            print("update gitee gist fail:{}".format(e))
     print(hosts_content)
 
 
