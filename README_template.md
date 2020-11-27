@@ -1,22 +1,7 @@
-# GitHub520
-<p align="center">
-  <img src="https://vip1.loli.net/2020/05/19/fLSBE29NxoFtOcd.gif"/>
-  <br><strong><a href="https://github.com/521xueweihan/HelloGitHub" target="_blank">HelloGitHub</a></strong> 分享 GitHub 上有趣、入门级的开源项目。<br>兴趣是最好的老师，这里能够帮你找到编程的兴趣！
-</p>
+# 南+ hosts
 
 ## 一、介绍
-对 GitHub 说"爱"太难了：访问慢、图片加载不出来。
-
-*注：* 本项目还处于测试阶段，仅在本机测试通过，如有问题欢迎提 [issues](https://github.com/521xueweihan/GitHub520/issues/new)
-
----
-
-本项目无需安装任何程序，通过修改本地 hosts 文件，试图解决：
-- GitHub 访问速度慢的问题
-- GitHub 项目中的图片显示不出的问题
-
-花 5 分钟时间，让你"爱"上 GitHub。
-
+解决南+日常炸裂的问题
 ## 二、使用方法
 
 ### 2.1 复制下面的内容
@@ -60,11 +45,10 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 - Title: 随意
 
-- Type: `Remote`
+- Type: `Remot
+- URL: `https://cdn.jsdelivr.net/gh/
 
-- URL: `https://gitee.com/xueweihan/codes/6g793pm2k1hacwfbyesl464/raw?blob_name=GitHub520.yml`
-
-- Auto Refresh: 最好选 `1 hour`
+- Auto Refresh: 最好选 
 
 如图：
 
