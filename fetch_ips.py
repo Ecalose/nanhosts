@@ -25,8 +25,8 @@ RAW_URL = [
 IPADDRESS_PREFIX = ".ipaddress.com"
 
 HOSTS_TEMPLATE = """# GitHub520 Host Start
-{content}# Star me GitHub url: https://github.com/521xueweihan/GitHub520
-# GitHub520 Host End\n"""
+{content}# Star me GitHub url:https://github.com/Ecalose/nanhosts
+# 南+ Host End\n"""
 
 
 def write_file(hosts_content: str):
