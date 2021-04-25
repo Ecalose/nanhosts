@@ -9,14 +9,13 @@
 # Nan Host Start
 104.21.74.59                  bbs.imoutolove.me
 104.21.65.178                 bbs.white-plus.net
-104.21.51.116                 south-plus.net
 104.21.79.227                 www.summer-plus.net
 # Star me GitHub url:https://github.com/Ecalose/nanhosts
 # 南+ Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2021-04-25T12:17:14+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2021-04-25T14:14:26+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
