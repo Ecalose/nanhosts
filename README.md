@@ -10,13 +10,13 @@
 104.21.66.122                 bbs.imoutolove.me
 104.21.65.178                 bbs.white-plus.net
 104.21.61.103                 south-plus.net
-104.21.79.227                 www.summer-plus.net
+172.67.149.74                 www.summer-plus.net
 # Star me GitHub url:https://github.com/Ecalose/nanhosts
 # 南+ Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2021-08-20T16:09:09+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2021-08-20T18:08:16+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
