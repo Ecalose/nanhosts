@@ -8,7 +8,6 @@
 ```bash
 # Nan Host Start
 172.67.159.230                bbs.imoutolove.me
-172.67.220.26                 bbs.white-plus.net
 172.67.208.241                south-plus.net
 172.67.149.74                 www.summer-plus.net
 # Star me GitHub url:https://github.com/Ecalose/nanhosts
@@ -16,7 +15,7 @@
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2021-11-24T12:10:41+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2021-11-24T14:11:16+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
